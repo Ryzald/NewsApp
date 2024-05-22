@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="14dp"
+    android:layout_marginTop="15dp"
+    android:background="@color/blue"
+    app:cardCornerRadius="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <!-- TextView -->
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/placeholder_bg"
+            android:layout_marginBottom="8dp"
+            android:layout_height="25dp"
+            android:paddingBottom="8dp"
+             />
+
+        <!-- ImageView -->
+        <View
+            android:background="@color/placeholder_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:background="@color/placeholder_bg"
+                android:layout_width="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_bookmark" />
+
+            <View
+                android:background="@color/placeholder_bg"
+                android:layout_width="match_parent"
+                    android:layout_height="20dp"
+               />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
